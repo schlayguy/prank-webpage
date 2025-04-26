@@ -2,8 +2,8 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-sender_email = "your_email@gmail.com"  # Replace with your Gmail address
-receiver_email = "Mr.Lang65@gmail.com"
+sender_email = "your_email_here"  # Replace with your email address
+receiver_email = "receiver_email_here" # Replace with recipient email address
 password = "kkff xhfi ibzn kxyc"
 prank_url = "https://<ngrok-id>.ngrok.io/?user=friend123"  # Replace with ngrok URL
 
