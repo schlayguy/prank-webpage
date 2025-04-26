@@ -1,8 +1,53 @@
-Schlayballs Phishing Study
-# Scam  Webpage----WARNING: HIGHLY MOCKED
-Power on your baseboard motor by pulling the string hard, get those fishing rods out and tie the bait on tight reeling in unsuspecting rainbow trout 
-Mock phishing study with Flask, SQLite, and ngrok. Logs “6969”, “Banned!”.
-A fun project to create a mocked scam phishing trip on your friends by setting up  webpage with click tracking and email functionality.
+Schlayballs Master Phishing Education Class used by pro cyber con artist
+Ahoy, cyber-anglers! Ready to cast a net and hook your pals in a hilarious, ethical phishing prank? "Reel 'Em In" is a mock phishing study that’s less "steal your bank details" and more "steal your dignity with a giggle." Built with Flask, SQLite, and ngrok, this project spins up a shady webpage that screams "FREE TROUT TICKETS TO RAINBOW RIVER!" to lure unsuspecting clickers. Every click gets logged with a sassy "6969" for first-timers or "Banned!" for those who keep nibbling the bait. With email alerts that roast victims gently and a debrief that schools them on phishing scams, this is cybersecurity education disguised as a comedy fishing trip. Grab your virtual rod and let’s reel in some laughs!
+Features  
+
+Click Trolling: SQLite logs every click with the precision of a fish counter at a sushi bar. First click? "6969" for the win. Back for more? "Banned!" with a digital dunce cap. Timestamps and anonymized IPs keep it legit.
+
+Sassy Emails: Caught a fish? The system fires off an email like, "Congrats, you fell for a fake fish! Time to scale up your scam-spotting skills!" using secure email magic.
+
+Ngrok Shenanigans: Ngrok turns your localhost into a public URL faster than you can say "phishing pole." Share the link and watch your friends flounder from anywhere!
+
+Edutainment Debrief: After the prank, users land on a page that spills the tea: "You got fished! Here’s how to spot real scams without crying into your tackle box."
+
+Tech Stack  
+Flask: The Python web framework that serves up scam pages smoother than a conman’s sales pitch.
+
+SQLite: A lightweight database for storing click logs, because even fake fish deserve a permanent record.
+
+Ngrok: Tunnels your local server to the web, making it easier to cast your net far and wide.
+
+SMTPlib (or pals): Powers those snarky email taunts to your freshly hooked victims.
+
+HTML/CSS: For a phishing page so tacky it could star in a 90s Geocities reunion tour.
+
+How It Works  
+Rig the Trap: Fire up the Flask app and let ngrok give you a public URL. Set up SQLite to log your catches and secure your email credentials (no real fish were harmed).
+
+Cast the Line: Send the ngrok link to your consenting buddies, disguised as a deal too fishy to resist—like "Free Trout Jacuzzi Vacation!" or "Adopt a Pet Carp Today!"
+
+Hook, Line, Sinker: When a pal clicks the shiny button, SQLite logs it with a timestamp and a zinger: "6969" for a fresh catch, "Banned!" for greedy fish who keep biting.
+
+Reel ’Em In: An email hits their inbox, cackling, "You swam right into our net! Study up on phishing or you’ll be sleeping with the fishes!"
+
+Teach the Fish: Redirect them to a debrief page with a wink: "You’re not a shark yet—here’s how to swim past real scams."
+
+Ethical Fine Print  
+Consent or Bust: Only prank friends who’ve signed up for your cyber-fishing trip. No poaching strangers!
+
+Spill the Beans: Reveal the joke post-click with a big, friendly "It’s just a prank, bro!"
+
+Keep It Clean: Anonymize IPs, secure email creds, and delete data after the laughs. No one wants a lawsuit with their trout.
+
+Humor, Not Humiliation: Keep the roasts kinder than a campfire fish fry—education’s the goal, not tears.
+
+Sample Log Output  
+plaintext
+
+[2025-04-26 12:34:56] Chad took the bait! Log: 6969
+[2025-04-26 12:35:02] Chad’s back for seconds! Log: Banned!
+
+
 
 
 ## Setup
