@@ -6,24 +6,21 @@ from email.mime.multipart import MIMEMultipart
 sender_email = "daveschleman@gmail.com"
 password = "kkffxhfiibznkxyc"  # Your Gmail App Password
 recipients = [
-    "Mr.lang65@gmail.com",
-    "daveschleman@gmail.com",
+    "mr.lang65@gmail.com",
     "laschlemann@gmail.com",
-    "bschlema@gmail.com"
+    "eschlema@gmail.com",
+    "daveschleman@gmail.com",
 ]
 
 # Email content
-subject = "Mock Alert: Don't Get Banned and Scammed - Nigerian Phishing Study"
+subject = "Mock Update: Don't Get Banned and Scammed - Nigerian Phishing Study"
 body = """
 Schlayballs Security Check for GM, Squeebs, and Slippery banannas
 
 As part of the Schlayballs Project, we're conducting a mock study on Nigerian phishing scams to keep you scam-smart. Click the link below to participate in this interactive exercise:
 
-https://2930-70-231-13-118.ngrok-free.app/?user=friend123.
+ https://7705-2600-1700-17f0-5eb0-216-3eff-fef1-4316.ngrok-free.app
 
-This is a safe, controlled prank to test your scam awareness. Enter any jumbo mumbo or deny the request, and stay sharp! Your response will help us analyze phishing behavior.
-
-Stay scam-smart,
 Schlayballs
 """
 
