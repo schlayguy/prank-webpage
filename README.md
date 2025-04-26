@@ -1,6 +1,9 @@
 Schlayballs Phishing Study
-# Prank Webpage
+# Scam  Webpage----WARNING: HIGHLY MOCKED
+Power on your baseboard motor by pulling the string hard, get those fishing rods out and tie the bait on tight reeling in unsuspecting rainbow trout 
 Mock phishing study with Flask, SQLite, and ngrok. Logs “6969”, “Banned!”.
+A fun project to create a mocked scam phishing trip on your friends by setting up  webpage with click tracking and email functionality.
+
 
 ## Setup
 1. Clone: `git clone https://github.com/schlayguy/prank-webpage`

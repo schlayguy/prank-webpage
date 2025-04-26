@@ -1,18 +1,7 @@
-# ngrok
 ngrok
 *.tgz
 *.tgz.*
-
-# Logs and databases
-responses.db
-responses.txt
-clicks.txt
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
 venv/
-*.egg-info/
+responses.db
+clicks.txt
+responses.txt
