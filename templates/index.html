@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prank Webpage</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; padding: 20px; }
+        .container { max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 10px; }
+        h1 { color: #ff5555; }
+        p { font-size: 16px; color: #333; }
+        input[type="text"] { padding: 8px; margin: 5px; width: 200px; }
+        input[type="submit"] { padding: 10px 20px; margin: 5px; background-color: #55ff55; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Prank Party!</h1>
+        <p>User: <span id="user">{{ user_id }}</span></p>
+        <form method="POST" action="/submit?user={{ user_id }}">
+            {{ form.hidden_tag() }}
+            {{ form.ssn(placeholder="Enter jumbo mumbo (XXX-XX-XXXX)", id="jumbo") }}
+            {{ form.accept(onclick="prank()") }}
+            {{ form.deny() }}
+        </form>
+    </div>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById("user").innerText = params.get("user") || "Unknown";
+        function prank() {
+            const jumbo = document.getElementById("jumbo").value;
+            if (jumbo) {
+                alert("You entered: " + jumbo);
+            }
+        }
+    </script>
+</body>
+</html>
