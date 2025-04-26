@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 
 sender_email = "your_email_here"  # Replace with your email address
 receiver_email = "receiver_email_here" # Replace with recipient email address
-password = "kkff xhfi ibzn kxyc"
+password = "app_password_here"  # you will need to get an app password like they provide in gmail
 prank_url = "https://<ngrok-id>.ngrok.io/?user=friend123"  # Replace with ngrok URL
 
 msg = MIMEMultipart('alternative')
