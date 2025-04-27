@@ -5,3 +5,5 @@ venv/
 responses.db
 clicks.txt
 responses.txt
+secrets.txt
+*.env
