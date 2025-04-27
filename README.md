@@ -1,6 +1,8 @@
-Schlayballs Master Phishing Education Class used by pro cyber con artist
-Ahoy, cyber-anglers! Ready to cast a net and hook your pals in a hilarious, ethical phishing prank? "Reel 'Em In" is a mock phishing study and a serious useful skill for managing both front end and back end servers. 
-Built with Flask, SQLite, and ngrok, this project spins up a shady webpage that screams "FREE TROUT TICKETS TO RAINBOW RIVER!" to lure unsuspecting clickers. Every click gets logged with the front end's biting your bait and getting hooked, compiling all their responses in real-time you can see in your SQLite. My victims(friends) typed "6969" or "420" and sometimes "Banned!" for those who kept nibbling the bait. With email alerts that roast victims gently and a debrief that schools them on phishing scams, this is cybersecurity education with some serious hiliarity.
+#Schlayballs Master Phishing Education Class used by some pro cyber con Artist
+
+
+Ahoy, cyberhomos!! Ready to cast a net and hook your mocked friends? "Reel 'Em In" is a mock phishing study and a practical skill for managing both front end and back end servers. 
+Built with Flask, SQLite, and ngrok, this project spins up a suspicious webpage to lure unsuspecting clickers. Every click gets logged with the front end's biting your bait and getting hooked, compiling all their responses in real-time you can see in your SQLite. My victims(friends) typed "6969" or "420" and sometimes "Banned!" for the fish nibbling the bait. With email alerts that alert victims gently and a debrief that schools them on phishing scams, this is cybersecurity education with some serious MOCKS!
 
 Click Trolling: SQLite logs every click with the precision of a fish counter at a sushi bar. First click? "6969" for the win. Back for more? "Banned!" with a digital dunce cap. Timestamps and anonymized IPs keep it legit.
 
