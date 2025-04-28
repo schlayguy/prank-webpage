@@ -9,3 +9,4 @@ secrets.txt
 *.env
 ~/.git-credentials
 ~/.git-credentials
+~/.git-credentials
