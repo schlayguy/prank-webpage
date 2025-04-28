@@ -7,3 +7,4 @@ clicks.txt
 responses.txt
 secrets.txt
 *.env
+~/.git-credentials
