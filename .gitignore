@@ -1,3 +1,4 @@
+~.git-credentials
 ngrok
 *.tgz
 *.tgz.*
@@ -7,7 +8,3 @@ clicks.txt
 responses.txt
 secrets.txt
 *.env
-~/.git-credentials
-~/.git-credentials
-~/.git-credentials
-~/.git-credentials
