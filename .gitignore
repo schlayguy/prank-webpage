@@ -8,3 +8,4 @@ responses.txt
 secrets.txt
 *.env
 ~/.git-credentials
+~/.git-credentials
